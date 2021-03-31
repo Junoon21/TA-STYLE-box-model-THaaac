@@ -1,0 +1,92 @@
+<!---
+### Create a page according to the layout shown below
+
+![Box Model Exercise 6](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/box-model/ex-6.png)
+
+#### Problems for exercise 2 in the layout
+
+- Each parent container has width of 600px and border of 1px;
+- Each children box has width 180px and height 100px as well as margin of 10px;
+- Each child box which is having border has border-width 1px.
+- Note in the first container the boxes do not have any border.
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper.
+--->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="assets/stylesheets/style.css">
+        <title>assignment 3</title>
+    </head>
+    <body>
+        <article class="wrapper">
+            <header>
+                <h2 class="heading">The box model , box sizing and box shadow</h2>
+                <hr>
+             </header>
+             <main>
+                 <section class="wrapper2">
+                    <h4 class="headingsmall">Exercise 1</h4>
+                   
+                        <div class="backgroundpink">
+                            <div class="backgroundblack">
+                                <div class="backgroundblue">
+                                <div class="box"></div>
+                                </div>
+                            </div>
+                        </div>  
+                        <div class="center">
+                            <div class="one"></div><p class="sameline">content</p>
+                            <div class="two"></div><p class="sameline" >padding</p>
+                            <div class="three"></div><p class="sameline" >border</p>
+                            <div class="four"></div><p class="sameline">margin</p>
+                        </div>
+                  
+                   
+                        
+                            
+                         
+                            
+                          
+                        </div>
+                    </section>
+                    
+                       
+                       <div><hr>
+                        <h4 class="headingsmall">Exercise 2</h4>
+                        <h3> no border on these boxes</h3>
+                        <div class="parentcontainer">
+                            <div class="removespace">
+                                <div class="childcontainer"></div>
+                                <div class="childcontainer"></div>
+                                <div class="childcontainer"></div>
+                            </div>
+                        </div>
+                            <div>
+                                <h3> 1px border on these boxes </h3>
+                                <div class="parentcontainer">
+                                        <div class="childcontainer2"></div>
+                                        <div class="childcontainer2"></div>
+                                        <div class="childcontainer2"></div>
+                                    </div>
+                            </div>
+                            <div>
+                                <h3> 1px border on these boxes but they are in same line </h3>
+                                <div class="parentcontainer">
+                                    <div class="removespace"><div class="childcontainer"></div>
+                                    <div class="childcontainer"></div>
+                                    <div class="childcontainer"></div>
+                                </div>
+                                        
+                                    </div>
+                            </div>
+                
+                 
+                </main>
+
+        </article>
+        
+    </body>
+</html>
