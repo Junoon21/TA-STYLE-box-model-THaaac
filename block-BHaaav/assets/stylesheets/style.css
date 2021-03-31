@@ -1,0 +1,150 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*custom styles*/
+
+h3 {
+    color: floralwhite;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 20px;
+}
+nav {
+    color: floralwhite;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+a {
+    color: floralwhite;
+    margin: 10px;
+    text-decoration: none;
+
+}
+.section1 {
+    background-color: rgb(12, 8, 34);
+} 
+h1 {
+    color: floralwhite;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 140px;
+    padding-bottom: 17px;
+    margin-left: 80px;
+    text-transform: uppercase;
+}
+p {
+    padding-top: 17px;
+    padding-bottom: 120px;
+    color: floralwhite;
+    margin-left: 80px;
+}
+hr {
+    margin: 0 70px;
+    color: rgb(68, 68, 67);
+    
+}
+h2 {
+    font-size: 25px;
+    color: floralwhite;
+    padding: 30px;
+    margin-left:  80px;
+}
+.section2 {
+    background-color: rgb(48, 48, 121);
+}
+.firstpic {
+    
+    width:200px;
+    height:200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: 70px;
+   
+}
+.camera {
+    display: inline;
+    margin: 0 auto;
+    margin-left: -25%;
+    height: 100%;
+    width: auto;
+
+}
+h4 {
+    font-size: 20px;
+    color: floralwhite;
+    padding: 30px;
+    margin-left:  50px;
+    text-transform: uppercase;
+
+}
+.readmore {
+    color: floralwhite;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.section3 {
+    background-color: rgb(39, 39, 92);
+}
+.section4 {
+    background-color: rgb(29, 29, 68);
+}
+footer {
+   
+    color:floralwhite;
+    margin-left: 3%;
+    padding: 5%;
+
+   
+}
+
+
